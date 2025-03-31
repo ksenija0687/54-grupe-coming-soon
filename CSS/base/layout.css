@@ -19,7 +19,10 @@
   width: 600px;
 }
 
-.container .left-column {
+.container .column {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
   width: 50%;
 }
 .container .right-column {
